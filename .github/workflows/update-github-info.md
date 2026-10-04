@@ -4,7 +4,9 @@ description: Keep the GitHub Info page current with practical updates from the G
 on:
   schedule: daily
   workflow_dispatch:
-engine: copilot
+engine:
+  id: copilot
+  copilot-sdk: true
 permissions:
   contents: read # Why did the agent put the persmissions of contents to read?
 tools:
