@@ -14,6 +14,7 @@ network:
   allowed:
     - github.blog
     - github.com
+    - awesome-copilot.github.com
 safe-outputs:
   create-pull-request:
     max: 1
@@ -25,10 +26,11 @@ safe-outputs:
 
 Read `notes/mona-notes.md` before researching or editing. Follow its guidance on concise, practical developer updates and attribution.
 
-Fetch both of these pages with the web-fetch tool:
+Fetch all three of these pages with the web-fetch tool:
 
 - https://github.blog/latest/
 - https://github.blog/changelog/
+- https://awesome-copilot.github.com/workflows/
 
 Identify recent announcements that are useful to developers learning GitHub. Verify the details and publication dates from the fetched pages, and use direct links to the relevant source articles rather than linking only to the landing pages. Do not infer or invent announcements, dates, or URLs. If either source cannot be fetched or verified, do not open a pull request for unsupported changes.
 
